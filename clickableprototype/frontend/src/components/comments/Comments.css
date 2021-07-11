@@ -1,0 +1,53 @@
+.duplicate-table tr:nth-child(even) {background-color: #f2f2f2;}
+
+.duplicate-table tr:hover {background-color: #98bdd3;}
+
+.scrollable-td {
+  max-height:400px; 
+  overflow-y:scroll; 
+} 
+
+.scrollable-table {
+  max-height: 800px;
+  overflow-y: scroll
+}
+
+.center-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sendButton {
+  vertical-align: middle;
+  background-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  padding: 2px;
+  align-items: baseline;
+  height: 40px;
+  width: 60px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 17.5px;
+}
+
+.sendButton:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+.tableHead {
+  height: 50px;
+  width: 108px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-shadow: 0.5px 0.5px 1px #707070;
+}
+
+#chats th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#chats tr:nth-child(even) .comment-cluster {background-color: #cfcfcf}

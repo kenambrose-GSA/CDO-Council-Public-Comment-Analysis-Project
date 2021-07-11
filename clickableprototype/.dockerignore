@@ -1,0 +1,12 @@
+# Ignore Everything
+**
+
+# Allow Used Data
+!/lda_data/data/epa_usda_dockets.rds
+!/lda_data/data/epa_usda_topics.rds
+!/lda_data/data/comment_id.csv
+!/dedup/data/**
+
+# Allow API Code
+!/backend/code/runApi.R
+!/backend/code/api.R
