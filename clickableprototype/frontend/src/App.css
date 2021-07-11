@@ -1,0 +1,60 @@
+.nav {
+  width: 100vw;
+  height: 8.5vh;
+}
+
+.content-div {
+  width: 100vw;
+}
+
+.page-body {
+  margin-top: 0rem;
+}
+
+.title {
+  color: #303030;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  text-shadow: 1.5px 1.5px 3px #4a4545;
+}
+
+.smallTitle {
+  color: #303030;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  text-shadow: 0.5px 0.5px 2px #707070;
+}
+
+.smallText {
+  color: #303030;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-shadow: 0.5px 0.5px 2px #707070;
+}
+
+.smallerText {
+  color: #303030;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-shadow: 0.5px 0.5px 1px #707070;
+}
+
+.buttons {
+  width: 150px;
+  height: 32px;
+  vertical-align: middle;
+  background-color: rgb(226, 225, 225);
+  border-radius: 8px;
+  padding: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.buttons:hover {
+  background-color: rgb(175, 174, 174);
+}

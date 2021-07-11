@@ -1,0 +1,27 @@
+<head>
+  <style>
+    div {
+      width: 500px;
+      height: 500px;
+      background-color: aquamarine;
+      position: fixed;
+      left: 100px;
+      top: 100px;
+      
+    }
+  </style>
+</head>
+<body>  
+  <div onmousemove="mousemove(event)" onmouseout="mouseout(event)"></div>
+</body>
+<script>
+  function mousemove(e){
+    ['page', 'screen', 'layer', 'offset'].map(function(x){
+      console.log(x, [e[`${x}X`], e[`${x}Y`]])
+    })
+  }
+
+  function mouseout(e){
+    console.log("i'm out!")
+  }
+</script>

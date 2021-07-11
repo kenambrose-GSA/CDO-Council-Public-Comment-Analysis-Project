@@ -1,0 +1,44 @@
+.navbar-size {
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 4.3rem;
+    background-color: rgb(202, 202, 202);
+    box-shadow: 0px 1.5px 10px #707070;
+    z-index: 10000;
+}
+
+.menu {
+    float: left;
+    margin-top: 12.5px;
+}
+
+.menuTitle {
+    color: #303030;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px #707070;
+}
+
+.droparrow {
+    float: left;
+    margin-top: 1.3rem;
+}
+
+.title-space {
+    width: 150px;
+    height: 56px;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.title-text {
+    color: #004785;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px #4a4545;
+  }
